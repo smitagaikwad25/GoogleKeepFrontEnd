@@ -1,0 +1,108 @@
+.signInMain{
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 247, 236);
+}
+
+.signIncontainer{
+    /* border: 1px solid black; */
+    background-color:beige;
+    border-radius: 10px;
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 40px rgb(0,0,0,0.2) ;
+}
+
+.signInText {
+    /* border: 1px solid brown; */
+    width: 90%;
+    height: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    opacity: 1;
+}
+
+.signInText p {
+    margin: 6px 0; /* Reduces the space between the paragraphs */
+    line-height: 0.9; /* Adjusts the space between lines of text within the same paragraph */
+    text-align: center; /* Centers the text */
+}
+
+.signIn{
+    /* border: 1px solid goldenrod; */
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signIninput{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+ 
+}
+
+.signInForgottext{
+    /* border: 1px solid rgb(8, 0, 255); */
+    display: flex;
+    justify-content: flex-star;
+    font-size: 15px;
+    opacity: 0.8;
+    color: rgb(6, 65, 174);
+}
+
+.signInSecondTextOne{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid green ; */
+    font-size: 14px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.signInSecondTextTwo{
+    width: 100%;
+    height: 50%;
+    font-size: 14px;
+    opacity: 0.8;
+    display: flex;
+    color: rgb(6, 65, 174);
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.signInBtn{
+    width: 100%;
+    /* height: 40%; */
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.signInBtnTwo{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

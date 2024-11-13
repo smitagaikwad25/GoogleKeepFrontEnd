@@ -1,0 +1,80 @@
+.NoteThreeContainer{
+    width: 21vw;
+    /* height: 20vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    height: auto
+    /* border: 1px solid blue; */
+}
+.NoteThreePaper{
+    width: 100%;
+    /* height: 100%; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.NoteThreeContained{
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  
+    
+}
+
+.NoteThreeInput{
+    width: 100%;
+    /* height: 60%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 6px;
+    
+}
+.NoteThreeInput P{
+    margin: 10px 0;
+}
+
+.css-me6etz-MuiInputBase-root{
+    height: auto;
+}
+
+.notethree_iconContainer{
+    display: flex;
+    width: 100%;
+    /* height: 29%; */
+    border: 1px solid #e2dede;
+    /* box-shadow: 0 0 4px rgb(0,0,0,0.2) ; */
+    border-radius: 3px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.notethree_iconContainer_icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 60%;
+    /* border: 1px solid red; */
+}
+
+.notethree_iconContainer_btn{
+    display: flex;
+    /* border: 1px solid gold; */
+    width: 30%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

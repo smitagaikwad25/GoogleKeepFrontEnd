@@ -1,0 +1,31 @@
+.dashbordContainer{
+    width: 100vw;
+    height: 100vw;
+    overflow: hidden;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+    top:64px;
+}
+/* .dashbordDrawer{
+    width: 100%;
+    height: 100%;
+    
+} */
+
+.dashbord_noteData{
+        display: grid;
+        /* grid-template-columns: repeat(4, 1fr);
+        gap: 5px; */
+
+        
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+        gap: 16px; 
+        grid-auto-flow: dense; 
+        margin-top: 20px;
+        width: 90%;
+        margin-left:7% ;
+        justify-content:flex-start;
+        /* border: 1px solid red; */
+       
+}

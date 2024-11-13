@@ -1,0 +1,66 @@
+.NoteTwoContainer{
+    width: 40vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 29%;
+}
+.NoteTwoPaper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.NoteTwoContained{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px;
+    
+}
+
+.NoteTwoInput{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.iconContainer{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid greenyellow; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconContainer_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 60%;
+    /* border: 1px solid red; */
+}
+
+.iconContainer_btn{
+    display: flex;
+    /* border: 1px solid gold; */
+    width: 30%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
